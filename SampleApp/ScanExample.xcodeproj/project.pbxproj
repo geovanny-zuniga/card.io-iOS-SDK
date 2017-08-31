@@ -201,6 +201,11 @@
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = card.io;
+				TargetAttributes = {
+					0A2C90321564175A000727BC = {
+						DevelopmentTeam = WEENFV7RVZ;
+					};
+				};
 			};
 			buildConfigurationList = 0A2C902D1564175A000727BC /* Build configuration list for PBXProject "ScanExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -350,6 +355,7 @@
 		0A2C90551564175A000727BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = WEENFV7RVZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScanExample/ScanExample-Prefix.pch";
 				INFOPLIST_FILE = "ScanExample/ScanExample-Info.plist";
@@ -370,6 +376,7 @@
 		0A2C90561564175A000727BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = WEENFV7RVZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScanExample/ScanExample-Prefix.pch";
 				INFOPLIST_FILE = "ScanExample/ScanExample-Info.plist";
